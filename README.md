@@ -1,3 +1,33 @@
+# Password Generator for OSINT
+
+Overview
+
+This Python script generates a list of possible passwords based on a person's personal information. It collects inputs such as the person's name, birthdate, favorite food, and other details. The script then generates various combinations of these details and saves them into a file named output.txt. This can be useful in OSINT (Open Source Intelligence) activities, where you may need to generate potential passwords for further analysis.
+
+## Features
+
+- Collects personal information like first name, birthdate, favorite food, etc.
+- Generates combinations of 2, 3, or 4 details to form possible passwords.
+- Saves generated passwords to a text file (output.txt).
+- Offers different case formats for password generation (lowercase, uppercase, capitalized).
+
+## Requirements
+
+- Python 3.x
+
+## Installation
+
+1. Clone the repository from GitHub:
+
+```bash
+  git clone https://github.com/edmar28/osintpasswordgenerator.git
+```
+
+2. Navigate to the project directory:
+```bash
+ cd osintpasswordgenerator
+```
+
 ## Usage
 
 1. Run the script:
